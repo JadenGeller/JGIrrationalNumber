@@ -45,8 +45,9 @@
     // series found here
     // http://en.wikipedia.org/wiki/Pi#Infinite_series
     // 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - ...
+    // Shitty algorithm converges VERY slowly so you can't calculate more than a few digits
+    // To speed up, use the Gregory–Leibniz series instead (also on wiki page)
     JGIrrationalNumber *pi = [JGIrrationalNumber irrationalNumberWithConvergingSeries:^NSDecimalNumber *(NSDecimalNumber *term, NSMutableDictionary *storage) {
-        // Shitty algorithm converges VERY slowly so you can't calculate more than a few digits
         
         NSDecimalNumber *counter = storage[@"counter"]?: [NSDecimalNumber one];
         storage[@"counter"] = [counter decimalNumberByAdding:[NSDecimalNumber decimalNumberWithDecimal:@(2).decimalValue]];
