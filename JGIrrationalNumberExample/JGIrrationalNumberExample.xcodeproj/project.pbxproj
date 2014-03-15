@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D735EF0D18D459FF00AE3E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735EF0C18D459FF00AE3E3B /* Foundation.framework */; };
+		D735EF0F18D459FF00AE3E3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735EF0E18D459FF00AE3E3B /* CoreGraphics.framework */; };
+		D735EF1118D459FF00AE3E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735EF1018D459FF00AE3E3B /* UIKit.framework */; };
+		D735EF1718D459FF00AE3E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D735EF1518D459FF00AE3E3B /* InfoPlist.strings */; };
+		D735EF1918D459FF00AE3E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D735EF1818D459FF00AE3E3B /* main.m */; };
+		D735EF1D18D459FF00AE3E3B /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D735EF1C18D459FF00AE3E3B /* JGAppDelegate.m */; };
+		D735EF2018D459FF00AE3E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D735EF1E18D459FF00AE3E3B /* Main.storyboard */; };
+		D735EF2318D459FF00AE3E3B /* JGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D735EF2218D459FF00AE3E3B /* JGViewController.m */; };
+		D735EF2518D459FF00AE3E3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D735EF2418D459FF00AE3E3B /* Images.xcassets */; };
+		D735EF2C18D45A0000AE3E3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735EF2B18D45A0000AE3E3B /* XCTest.framework */; };
+		D735EF2D18D45A0000AE3E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735EF0C18D459FF00AE3E3B /* Foundation.framework */; };
+		D735EF2E18D45A0000AE3E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735EF1018D459FF00AE3E3B /* UIKit.framework */; };
+		D735EF3618D45A0000AE3E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D735EF3418D45A0000AE3E3B /* InfoPlist.strings */; };
+		D735EF3818D45A0000AE3E3B /* JGIrrationalNumberExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D735EF3718D45A0000AE3E3B /* JGIrrationalNumberExampleTests.m */; };
+		D735EF4318D45A0E00AE3E3B /* JGIrrationalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D735EF4218D45A0E00AE3E3B /* JGIrrationalNumber.m */; };
+		D735EF4618D4786000AE3E3B /* NSDecimalNumber+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D735EF4518D4786000AE3E3B /* NSDecimalNumber+Extensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D735EF2F18D45A0000AE3E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D735EF0118D459FF00AE3E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D735EF0818D459FF00AE3E3B;
+			remoteInfo = JGIrrationalNumberExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D735EF0918D459FF00AE3E3B /* JGIrrationalNumberExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGIrrationalNumberExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D735EF0C18D459FF00AE3E3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D735EF0E18D459FF00AE3E3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D735EF1018D459FF00AE3E3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D735EF1418D459FF00AE3E3B /* JGIrrationalNumberExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGIrrationalNumberExample-Info.plist"; sourceTree = "<group>"; };
+		D735EF1618D459FF00AE3E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D735EF1818D459FF00AE3E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D735EF1A18D459FF00AE3E3B /* JGIrrationalNumberExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JGIrrationalNumberExample-Prefix.pch"; sourceTree = "<group>"; };
+		D735EF1B18D459FF00AE3E3B /* JGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAppDelegate.h; sourceTree = "<group>"; };
+		D735EF1C18D459FF00AE3E3B /* JGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
+		D735EF1F18D459FF00AE3E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D735EF2118D459FF00AE3E3B /* JGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGViewController.h; sourceTree = "<group>"; };
+		D735EF2218D459FF00AE3E3B /* JGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGViewController.m; sourceTree = "<group>"; };
+		D735EF2418D459FF00AE3E3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D735EF2A18D45A0000AE3E3B /* JGIrrationalNumberExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGIrrationalNumberExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D735EF2B18D45A0000AE3E3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D735EF3318D45A0000AE3E3B /* JGIrrationalNumberExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGIrrationalNumberExampleTests-Info.plist"; sourceTree = "<group>"; };
+		D735EF3518D45A0000AE3E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D735EF3718D45A0000AE3E3B /* JGIrrationalNumberExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGIrrationalNumberExampleTests.m; sourceTree = "<group>"; };
+		D735EF4118D45A0E00AE3E3B /* JGIrrationalNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGIrrationalNumber.h; path = ../JGIrrationalNumber.h; sourceTree = "<group>"; };
+		D735EF4218D45A0E00AE3E3B /* JGIrrationalNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGIrrationalNumber.m; path = ../JGIrrationalNumber.m; sourceTree = "<group>"; };
+		D735EF4418D4786000AE3E3B /* NSDecimalNumber+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+Extensions.h"; sourceTree = "<group>"; };
+		D735EF4518D4786000AE3E3B /* NSDecimalNumber+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Extensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D735EF0618D459FF00AE3E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735EF0F18D459FF00AE3E3B /* CoreGraphics.framework in Frameworks */,
+				D735EF1118D459FF00AE3E3B /* UIKit.framework in Frameworks */,
+				D735EF0D18D459FF00AE3E3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735EF2718D45A0000AE3E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735EF2C18D45A0000AE3E3B /* XCTest.framework in Frameworks */,
+				D735EF2E18D45A0000AE3E3B /* UIKit.framework in Frameworks */,
+				D735EF2D18D45A0000AE3E3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D735EF0018D459FF00AE3E3B = {
+			isa = PBXGroup;
+			children = (
+				D735EF1218D459FF00AE3E3B /* JGIrrationalNumberExample */,
+				D735EF3118D45A0000AE3E3B /* JGIrrationalNumberExampleTests */,
+				D735EF0B18D459FF00AE3E3B /* Frameworks */,
+				D735EF0A18D459FF00AE3E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D735EF0A18D459FF00AE3E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D735EF0918D459FF00AE3E3B /* JGIrrationalNumberExample.app */,
+				D735EF2A18D45A0000AE3E3B /* JGIrrationalNumberExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D735EF0B18D459FF00AE3E3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D735EF0C18D459FF00AE3E3B /* Foundation.framework */,
+				D735EF0E18D459FF00AE3E3B /* CoreGraphics.framework */,
+				D735EF1018D459FF00AE3E3B /* UIKit.framework */,
+				D735EF2B18D45A0000AE3E3B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D735EF1218D459FF00AE3E3B /* JGIrrationalNumberExample */ = {
+			isa = PBXGroup;
+			children = (
+				D735EF1B18D459FF00AE3E3B /* JGAppDelegate.h */,
+				D735EF1C18D459FF00AE3E3B /* JGAppDelegate.m */,
+				D735EF1E18D459FF00AE3E3B /* Main.storyboard */,
+				D735EF2118D459FF00AE3E3B /* JGViewController.h */,
+				D735EF2218D459FF00AE3E3B /* JGViewController.m */,
+				D735EF4118D45A0E00AE3E3B /* JGIrrationalNumber.h */,
+				D735EF4218D45A0E00AE3E3B /* JGIrrationalNumber.m */,
+				D735EF4418D4786000AE3E3B /* NSDecimalNumber+Extensions.h */,
+				D735EF4518D4786000AE3E3B /* NSDecimalNumber+Extensions.m */,
+				D735EF2418D459FF00AE3E3B /* Images.xcassets */,
+				D735EF1318D459FF00AE3E3B /* Supporting Files */,
+			);
+			path = JGIrrationalNumberExample;
+			sourceTree = "<group>";
+		};
+		D735EF1318D459FF00AE3E3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D735EF1418D459FF00AE3E3B /* JGIrrationalNumberExample-Info.plist */,
+				D735EF1518D459FF00AE3E3B /* InfoPlist.strings */,
+				D735EF1818D459FF00AE3E3B /* main.m */,
+				D735EF1A18D459FF00AE3E3B /* JGIrrationalNumberExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D735EF3118D45A0000AE3E3B /* JGIrrationalNumberExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D735EF3718D45A0000AE3E3B /* JGIrrationalNumberExampleTests.m */,
+				D735EF3218D45A0000AE3E3B /* Supporting Files */,
+			);
+			path = JGIrrationalNumberExampleTests;
+			sourceTree = "<group>";
+		};
+		D735EF3218D45A0000AE3E3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D735EF3318D45A0000AE3E3B /* JGIrrationalNumberExampleTests-Info.plist */,
+				D735EF3418D45A0000AE3E3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D735EF0818D459FF00AE3E3B /* JGIrrationalNumberExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D735EF3B18D45A0000AE3E3B /* Build configuration list for PBXNativeTarget "JGIrrationalNumberExample" */;
+			buildPhases = (
+				D735EF0518D459FF00AE3E3B /* Sources */,
+				D735EF0618D459FF00AE3E3B /* Frameworks */,
+				D735EF0718D459FF00AE3E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGIrrationalNumberExample;
+			productName = JGIrrationalNumberExample;
+			productReference = D735EF0918D459FF00AE3E3B /* JGIrrationalNumberExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D735EF2918D45A0000AE3E3B /* JGIrrationalNumberExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D735EF3E18D45A0000AE3E3B /* Build configuration list for PBXNativeTarget "JGIrrationalNumberExampleTests" */;
+			buildPhases = (
+				D735EF2618D45A0000AE3E3B /* Sources */,
+				D735EF2718D45A0000AE3E3B /* Frameworks */,
+				D735EF2818D45A0000AE3E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D735EF3018D45A0000AE3E3B /* PBXTargetDependency */,
+			);
+			name = JGIrrationalNumberExampleTests;
+			productName = JGIrrationalNumberExampleTests;
+			productReference = D735EF2A18D45A0000AE3E3B /* JGIrrationalNumberExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D735EF0118D459FF00AE3E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jaden Geller";
+				TargetAttributes = {
+					D735EF2918D45A0000AE3E3B = {
+						TestTargetID = D735EF0818D459FF00AE3E3B;
+					};
+				};
+			};
+			buildConfigurationList = D735EF0418D459FF00AE3E3B /* Build configuration list for PBXProject "JGIrrationalNumberExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D735EF0018D459FF00AE3E3B;
+			productRefGroup = D735EF0A18D459FF00AE3E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D735EF0818D459FF00AE3E3B /* JGIrrationalNumberExample */,
+				D735EF2918D45A0000AE3E3B /* JGIrrationalNumberExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D735EF0718D459FF00AE3E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735EF2518D459FF00AE3E3B /* Images.xcassets in Resources */,
+				D735EF1718D459FF00AE3E3B /* InfoPlist.strings in Resources */,
+				D735EF2018D459FF00AE3E3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735EF2818D45A0000AE3E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735EF3618D45A0000AE3E3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D735EF0518D459FF00AE3E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735EF1918D459FF00AE3E3B /* main.m in Sources */,
+				D735EF4618D4786000AE3E3B /* NSDecimalNumber+Extensions.m in Sources */,
+				D735EF2318D459FF00AE3E3B /* JGViewController.m in Sources */,
+				D735EF4318D45A0E00AE3E3B /* JGIrrationalNumber.m in Sources */,
+				D735EF1D18D459FF00AE3E3B /* JGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D735EF2618D45A0000AE3E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D735EF3818D45A0000AE3E3B /* JGIrrationalNumberExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D735EF3018D45A0000AE3E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D735EF0818D459FF00AE3E3B /* JGIrrationalNumberExample */;
+			targetProxy = D735EF2F18D45A0000AE3E3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D735EF1518D459FF00AE3E3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D735EF1618D459FF00AE3E3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D735EF1E18D459FF00AE3E3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D735EF1F18D459FF00AE3E3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D735EF3418D45A0000AE3E3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D735EF3518D45A0000AE3E3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D735EF3918D45A0000AE3E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D735EF3A18D45A0000AE3E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D735EF3C18D45A0000AE3E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGIrrationalNumberExample/JGIrrationalNumberExample-Prefix.pch";
+				INFOPLIST_FILE = "JGIrrationalNumberExample/JGIrrationalNumberExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D735EF3D18D45A0000AE3E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGIrrationalNumberExample/JGIrrationalNumberExample-Prefix.pch";
+				INFOPLIST_FILE = "JGIrrationalNumberExample/JGIrrationalNumberExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D735EF3F18D45A0000AE3E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JGIrrationalNumberExample.app/JGIrrationalNumberExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGIrrationalNumberExample/JGIrrationalNumberExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JGIrrationalNumberExampleTests/JGIrrationalNumberExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D735EF4018D45A0000AE3E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JGIrrationalNumberExample.app/JGIrrationalNumberExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGIrrationalNumberExample/JGIrrationalNumberExample-Prefix.pch";
+				INFOPLIST_FILE = "JGIrrationalNumberExampleTests/JGIrrationalNumberExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D735EF0418D459FF00AE3E3B /* Build configuration list for PBXProject "JGIrrationalNumberExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735EF3918D45A0000AE3E3B /* Debug */,
+				D735EF3A18D45A0000AE3E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D735EF3B18D45A0000AE3E3B /* Build configuration list for PBXNativeTarget "JGIrrationalNumberExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735EF3C18D45A0000AE3E3B /* Debug */,
+				D735EF3D18D45A0000AE3E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D735EF3E18D45A0000AE3E3B /* Build configuration list for PBXNativeTarget "JGIrrationalNumberExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D735EF3F18D45A0000AE3E3B /* Debug */,
+				D735EF4018D45A0000AE3E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D735EF0118D459FF00AE3E3B /* Project object */;
+}
