@@ -42,11 +42,11 @@
     return [self initWithConvergingSeries:nil];
 }
 
--(void)getDigitsInRange:(NSRange)range withBlock:(iteratorBlock)digitIterater{
+-(void)getDigitsInRange:(NSRange)range withBlock:(iteratorBlock)digitIterator{
     
     NSInteger end = range.location + range.length;
     for (NSInteger i = range.location; i < end; i++) {
-        digitIterater(i, [self digitAtIndex:i]);
+        digitIterator(i, [self digitAtIndex:i]);
     }
 }
 

@@ -17,6 +17,6 @@ typedef void (^iteratorBlock)(NSInteger index, NSString *digit);
 +(JGIrrationalNumber*)irrationalNumberWithConvergingSeries:(seriesBlock)series;
 -(id)initWithConvergingSeries:(seriesBlock)series;
 
--(void)getDigitsInRange:(NSRange)range withBlock:(iteratorBlock)digitIterater;
+-(void)getDigitsInRange:(NSRange)range withBlock:(iteratorBlock)digitIterator;
 
 @end

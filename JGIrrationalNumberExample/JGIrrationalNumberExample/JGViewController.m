@@ -20,6 +20,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    // e
+    // series found here
+    // http://en.wikipedia.org/wiki/E_(mathematical_constant)
+    // 1/0! + 1/1! + 1/2! + 1/3! + 1/4! + ...
     JGIrrationalNumber *e = [JGIrrationalNumber irrationalNumberWithConvergingSeries:^NSDecimalNumber *(NSDecimalNumber *term, NSMutableDictionary *storage) {
         
         NSDecimalNumber *factorial = storage[@"factorial"]?: [NSDecimalNumber one];
@@ -37,6 +41,10 @@
         [eStr appendString:digit];
     }];
     
+    // Pi
+    // series found here
+    // http://en.wikipedia.org/wiki/Pi#Infinite_series
+    // 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - ...
     JGIrrationalNumber *pi = [JGIrrationalNumber irrationalNumberWithConvergingSeries:^NSDecimalNumber *(NSDecimalNumber *term, NSMutableDictionary *storage) {
         // Shitty algorithm converges VERY slowly so you can't calculate more than a few digits
         
